@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+#note {
+  width: 100%;
+  border: none;
+  font-size: 14px;
+  line-height: 22px;
+}
+.ql-editor {
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 960px;
+}
+.ql-toolbar.ql-snow {
+  border: none;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+}
+.ql-snow .ql-picker,
+.ql-snow .ql-picker.ql-header .ql-picker-label::before, 
+.ql-snow .ql-picker.ql-header .ql-picker-item::before {
+  color: #d5d8dc;
+}
+.ql-snow .ql-stroke {
+  stroke: #d5d8dc;
+}
+.ql-snow .ql-fill {
+  fill: #d5d8dc;
+}
